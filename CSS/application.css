@@ -7,6 +7,12 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+h1 {
+  font-size: 160%;
+  line-height: 200% ;
+  border-bottom: solid 1px #cccccc;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -21,7 +27,8 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
+  /*background-color: #2ecc71;  /*modified*/
 }
 
 
@@ -29,11 +36,21 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
+#wrap > .container {
+  padding: 60px 15px 0;
 }
 .container .credit {
   margin: 20px 0;
+  text-align: right;
 }
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+------------------------------------------------
